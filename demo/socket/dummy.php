@@ -1,6 +1,7 @@
 <?
 $name = strip_tags($_POST["name"]);
 $age = $_POST["age"] * 1;
+print_r ($GLOBALS);
 ?>
 <!DOCTYPE HTML>
 <html>
